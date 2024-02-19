@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+#first_div {
+    background-color: #1F2937;
+}
+
+#first_div > nav > p {
+    color: #F9F8FA;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+button {
+    margin: 10px;
+    padding: 15px;
+    background-color: #3882F6;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: none;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 3px;
+}
+
+#first_div > nav a, #second_inner_div > h1 + p {
+    color: #E5E7EB;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+#first_inner_div {
+    padding: 60px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#second_inner_div {
+    margin-right: 50px;
+    padding: 40px;
+}
+
+#first_inner_div > img {
+    margin-left: 50px;
+    width: 420px;
+    height: 250px;
+    padding: 40px;
+}
+
+#links > a {
+    padding: 0 15px;
+}
+
+#links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+}
+#second_inner_div > h1 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bolder;
+}
+
+#second_imgaes {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+
+}
+
+figure > img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 2px solid #3882F6 ;
+   
+    
+   
+}
+
+#fig1, #fig2, #fig3, #fig4 {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+#forth_div {
+   
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#forth_first_inner_div {
+    background-color: #3882F6;
+    padding: 20px 50px;
+    width: 70%;
+    border: 2px solid #3882F6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#forth_third_inner_div > button {
+    border: 2px solid #E5E7EB;
+    
+}
+
+#forth_second_inner_div, #forth_third_inner_div {
+    padding: 20px 30px;
+}
+
+#second_div > h2 {
+    text-align: center;
+    padding: 25px;
+    font-size: 18px;
+}
+#second_div {
+    background-color: white;
+    
+}
+#third_div {
+    background-color: #E5E7EB;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#third_div > p {
+    
+    font-style: italic;
+    width: 40%;
+}
+
+#third_div_first_inner {
+    display: flex;
+    justify-content: end;
+    width: 40%;
+}
+
+#third_div_first_inner > p {
+    font-weight: bolder;
+
+}
+footer {
+    background-color:#1F2937 ;
+    padding: 30px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer > p {
+    color: #F9F8FA;
+}
+
+figcaption {
+    width: 110px;
+}
